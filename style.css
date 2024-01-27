@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-one{
+    background-color: #ffffff;
+
+}
+
+.nav-title{
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    background-color: #ffffff;
+    z-index: 1;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+}
+
+
+li a{
+text-decoration: none;
+color: #012a4a;
+font-size: 16px;
+font-weight: 700;
+}
+
+li{
+    margin-right: 30px;
+    width: 57px;
+    height: 43px;
+}
+
+.section-one{
+    display: flex;
+}
+
+.div-right{
+    flex: 1;
+    
+}
+.div-left{
+    flex: 1;
+    
+}
+
+.div-1{
+    margin-left: 9rem;
+}
+
+.div-1{
+    height: 48px;
+   width: 280px;
+}
+.div-1 .title{
+    padding-top: 9rem;
+    line-height: 2.7rem;
+    color: #012A4a;
+    font-size:2rem ;
+    font-weight: 700;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.div-1  .para-1{
+color: #012A4a;
+width: 510px;
+font-size: 1rem;
+font-weight: 400;
+padding-bottom: 50px;
+}
+
+.div-1 .btn{
+    text-decoration: none;
+    width: 280;
+    height: 48px;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+}
+    
+/* }
+.div-2 {
+    width: 400;
+    padding-right: 6rem;
+    height: 48px;
+   width: 280px;
+} */
+
+.div-left .div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    
+    border-radius: 60%;
+    height: 300px;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    
+}
+
+.div-3{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 6rem;
+    padding-top: 1rem;
+}
+
+.view{
+    margin-right:  6rem ;
+    padding-top: 1rem ;
+}
+
+.section-two{
+    height: 453;
+    background-color: #edf7fa;
+}
+
+.div-3 span > a {
+    text-decoration: none;
+    margin-right: 8rem;
+
+}
+
+.card-1{
+    width: 500px;
+    height: 350px;
+    background-color: #ffffff;
+    margin-left: 6rem;
+}
+
+.card-2{
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-left: 9rem;
+}
+
+.card-title{
+    width: 350;
+    padding-top: 2rem;
+    margin-left:2rem ;
+    padding-bottom: 2rem;
+}
+.cards > h1, .date, .para-2, .Design, .pipe{
+    margin-left: 2rem;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.card-1 > p{
+    width: 350px;
+    padding-top: 2rem;
+}
+
+.card-2 > p{
+    width: 350px;
+    padding-top: 2rem;
+}
+
+.cards{
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+
+
+.works{
+    padding-top: 2rem;
+    margin-left: 6rem;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.section-three-div{
+    display: flex;
+}
+
+.section-three-div-1{
+    flex: 1;
+}
+
+.section-three-div-2{
+    flex: 2;
+
+}
+.img-rec{
+    padding-top: 2rem;
+    margin-left: 6rem;
+    width: 450px;
+    height: 250px;
+}
+
+.dash-1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.year{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 3px;
+}
+
+.section-three-div-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20rem;
+}
+
+.para-3{
+    padding-top: 2rem;
+    width: 450px;
+}
+.line{
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    padding-top: 6rem;
+    justify-content: center;
+    gap: 18px;
+}
+
+.copy{
+padding-top: 2rem;
+text-align: center;
+display: flex;
+justify-content: center;
+}
+/* 
+@media only screen and (max-width:600px){
+    .section-one{
+        flex-direction: column;
+
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .section-three-div{
+        display: none;
+    }
+    .section-three-div-2{
+        display: none;
+    }
+    .section-three-div-1{
+        display: none;
+    }
+    .post, .view{
+        display: none;
+    }
+    .cards{
+        display: none;
+    }
+    .section-one{
+        flex-direction: column-reverse;
+    }
+    .img{
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-left: 1rem;
+    }
+    .div-1 .title{
+        width: 300px;
+        padding-top: 4rem;
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+    }
+
+    .div-1 .para-1{
+        width: 280px;
+        font-size: 1rem;
+    }
+    .nav-title{
+        display: none;
+    }
+
+    .section-two{
+        display: none;
+    }
+} */
